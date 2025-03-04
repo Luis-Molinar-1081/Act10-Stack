@@ -23,7 +23,12 @@ class StackScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Luis Molinar MAT: 1081'),
+        title: const Text(
+          "Luis Molinar MAT:1081",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
         backgroundColor: Colors.blue,
       ),
       body: Container(
